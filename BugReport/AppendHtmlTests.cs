@@ -6,6 +6,9 @@ namespace BugReport;
 [TestClass]
 public sealed class AppendHtmlTests
 {
+    /// <summary>
+    /// https://support.syncfusion.com/support/tickets/812475
+    /// </summary>
     [TestMethod]
     public void StyleFailTest()
     {
