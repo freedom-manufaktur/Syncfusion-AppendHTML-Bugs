@@ -1,0 +1,51 @@
+﻿# Example file here https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# fm stuff
+*.Generated.runsettings
+*.user.json
+
+# OS specific files
+desktop.ini
+
+# User-specific files
+*.suo
+*.user
+
+# Build results
+artifacts/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# ReSharper is a .NET coding add-in
+*.DotSettings.user
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# Nuget personal access tokens and Credentials
+nuget.config
+
+# Node.js Tools for Visual Studio
+node_modules/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.sln.iml

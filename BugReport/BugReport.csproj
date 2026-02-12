@@ -1,0 +1,15 @@
+﻿<Project Sdk="MSTest.Sdk/4.1.0">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fm.Extensions.Testing" Version="11.0.0" />
+    <PackageReference Include="Syncfusion.DocIORenderer.NET" Version="32.2.4" />
+  </ItemGroup>
+
+</Project>
